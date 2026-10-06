@@ -121,19 +121,25 @@ align: c-lm-lm
 
 :: left ::
 
-<StickyNote color="amber-light" textAlign="left" width="180px" title="Set 1 Challenge 1" customTitle="block text-base text-white" v-drag="[100,93,169,177,-14]" custom="mt-3">
+<v-drag pos="217,101,180,177,-14">
+<StickyNote color="amber-light" textAlign="left" width="180px" title="Set 1 Challenge 1" customTitle="block text-base text-white" custom="mt-3">
 Write 5, 9, and 13 in binary, 4 digits each
 </StickyNote>
+</v-drag>
 
-<StickyNote color="teal-light" textAlign="left" width="180px" title="Set 1 Challenge 2" customTitle="block text-base text-white" v-drag="[227,223,180,180,5]" custom="mt-3">
+<v-drag pos="377,141,180,180">
+<StickyNote color="teal-light" textAlign="left" width="180px" title="Set 1 Challenge 2" customTitle="block text-base text-white" custom="mt-3">
 Convert 1011, 0110, and 1111 to decimal
 </StickyNote>
+</v-drag>
 
 :: right ::
 
-<StickyNote color="pink-light" textAlign="left" width="180px" title="Set 1 Challenge 3" customTitle="block text-base text-white" v-drag="[525,94,180,180,13]" custom="mt-3">
+<v-drag pos="536,220,180,180,13">
+<StickyNote color="pink-light" textAlign="left" width="180px" title="Set 1 Challenge 3" customTitle="block text-base text-white" custom="mt-3">
 How many values can 4 binary digits represent, and what's the highest?
 </StickyNote>
+</v-drag>
   
 <v-drag pos="336,414,235,61">
   <div class="text-amber-400">Hint line:</div> the 8 4 2 1 place-value grid
