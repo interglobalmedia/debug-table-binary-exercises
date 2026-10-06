@@ -144,3 +144,13 @@ How many values can 4 binary digits represent, and what's the highest?
 <v-drag pos="336,414,235,61">
   <div class="text-amber-400">Hint line:</div> the 8 4 2 1 place-value grid
 </v-drag>
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
+# Challenge 2: Flip the last bit (Set 2)
