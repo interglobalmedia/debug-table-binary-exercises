@@ -227,3 +227,43 @@ Hint line:
 </div>
 128 64 32 16 8 4 2 1 is the place-value grid
 </v-drag>
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
+# Challenge 3: Max message length (Set 3)
+
+:: left ::
+
+<v-drag pos="116,117,180,177,-20">
+<StickyNote color="amber-light" textAlign="left" width="180px" title="Set 3 Challenge 1" customTitle="block text-base text-white" custom="mt-3">
+How many bits are in 4 bytes?
+</StickyNote>
+</v-drag>
+
+<v-drag pos="273,152,180,177,18">
+<StickyNote color="teal-light" textAlign="left" width="180px" title="Set 3 Challenge 2" customTitle="block text-base text-white" custom="mt-3">
+What's the largest length those bits can describe? A power of 2 is enough.
+</StickyNote>
+</v-drag>
+
+:: right ::
+
+<v-drag pos="505,120,381,117">
+<div class="text-amber-400">
+How it works:
+</div>
+Before hiding a message, the app stores the message's length at the start, in 4 bytes, so the app knows how much to read back.
+</v-drag>
+
+<v-drag pos="443,356,381,88">
+<div class="text-amber-400">
+Hint line:
+</div>
+1 byte = 8 bits
+</v-drag>
