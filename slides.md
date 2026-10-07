@@ -142,7 +142,7 @@ How many values can 4 binary digits represent, and what's the highest?
 </v-drag>
   
 <v-drag pos="336,414,235,61">
-  <div class="text-amber-400">Hint line:</div> the 8 4 2 1 place-value grid
+  <div class="text-amber-400">Hint line:</div> 8 4 2 1 is the place-value grid
 </v-drag>
 
 ---
@@ -186,4 +186,44 @@ A pixel's red value is 200. To hide a bit, keep every binary digit except the la
 
 <v-drag pos="405,338,386,94">
   <div class="text-amber-400">Hint line:</div> 128 64 32 16 8 4 2 1 is the place-value grid
+</v-drag>
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
+# Challenge 2: Flip the last bit (Set 2, continued)
+
+:: left ::
+
+<v-drag pos="67,113,180,177,-20">
+<StickyNote color="amber-light" textAlign="left" width="180px" title="Set 2 Challenge 4" customTitle="block text-base text-white" custom="mt-3">
+What's the new value?
+</StickyNote>
+</v-drag>
+
+<v-drag pos="231,142,180,177,18">
+<StickyNote color="teal-light" textAlign="left" width="180px" title="Set 2 Challenge 5" customTitle="block text-base text-white" custom="mt-3">
+Why does replacing more digits risk a visible change?
+</StickyNote>
+</v-drag>
+
+:: right ::
+
+<v-drag pos="462,112,381,153">
+<div class="text-amber-400">
+How it works:
+</div>
+Same pixel, same red value: 200. This time, hide 3 bits at once: keep every binary digit except the last 3, and replace those last 3 with the hidden bits <code>101</code>.
+</v-drag>
+
+<v-drag pos="398,349,381,88">
+<div class="text-amber-400">
+Hint line:
+</div>
+128 64 32 16 8 4 2 1 is the place-value grid
 </v-drag>
