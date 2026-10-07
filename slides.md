@@ -267,3 +267,58 @@ Hint line:
 </div>
 1 byte = 8 bits
 </v-drag>
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
+# Challenge 4: The é mystery (Bonus)
+
+:: left ::
+
+<v-drag pos="332,72,291,104">
+
+```python
+data = "é".encode()
+print(data)
+print("".join(chr(b) for b in data))
+print(data.decode())
+```
+
+</v-drag>
+
+<v-drag pos="60,102,188,188,-16">
+<StickyNote color="amber-light" textAlign="left" width="180px" title="Bonus Challenge 1" customTitle="block text-base text-white" custom="mt-3">
+How many bytes does "é".encode() give you?
+</StickyNote>
+</v-drag>
+
+<v-drag pos="242,184,188,188,14">
+<StickyNote color="teal-light" textAlign="left" width="180px" title="Bonus Challenge 2" customTitle="block text-base text-white" custom="mt-3">
+Turning each byte into a character with chr() gives Ã©, not é. Why?
+</StickyNote>
+</v-drag>
+
+<v-drag pos="122,299,188,188">
+<StickyNote color="pink-light" textAlign="left" width="180px" title="Bonus Challenge 3" customTitle="block text-base text-white" custom="mt-3">
+What does .decode() do differently?
+</StickyNote>
+</v-drag>
+
+<v-drag pos="471,200,381,118">
+<div class="text-amber-400">
+How it works:
+</div>
+Computers store text as bytes. Plain English letters take 1 byte each, but a character like é takes more than one.
+</v-drag>
+
+<v-drag pos="431,367,381,88">
+<div class="text-amber-400">
+Hint line:
+</div>
+This is the same bug as a page missing <code>&lt;meta charset="UTF-8"&gt;</code>
+</v-drag>
