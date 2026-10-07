@@ -154,3 +154,36 @@ align: c-lm-lm
 :: title ::
 
 # Challenge 2: Flip the last bit (Set 2)
+
+:: left ::
+
+<v-drag pos="67,113,180,177,-20">
+<StickyNote color="amber-light" textAlign="left" width="180px" title="Set 2 Challenge 1" customTitle="block text-base text-white" custom="mt-3">
+  Write 200 as 8 binary digits
+</StickyNote>
+</v-drag> 
+
+<v-drag pos="246,123,183,180,22">
+<StickyNote color="teal-light" textAlign="left" width="180px" title="Set 2 Challenge 2" customTitle="block text-base text-white" custom="mt-3">
+Replace the last digit with 1. What's the new value?
+</StickyNote>
+</v-drag> 
+
+<v-drag pos="153,271,180,190">
+<StickyNote color="pink-light" textAlign="left" width="180px" title="Set 2 Challenge 3" customTitle="block text-base text-white" custom="mt-3">
+How much did it change?
+</StickyNote>
+</v-drag>
+
+:: right::
+
+<v-drag pos="487,127,386,114">
+<div class="text-amber-400">
+How it works:
+</div>
+A pixel's red value is 200. To hide a bit, keep every binary digit except the last, and replace the last with the hidden bit.
+</v-drag>
+
+<v-drag pos="405,338,386,94">
+  <div class="text-amber-400">Hint line:</div> 128 64 32 16 8 4 2 1 is the place-value grid
+</v-drag>
