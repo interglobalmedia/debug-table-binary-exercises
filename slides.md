@@ -322,3 +322,34 @@ Hint line:
 </div>
 This is the same bug as a page missing <code>&lt;meta charset="UTF-8"&gt;</code>
 </v-drag>
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
+# Related resource
+
+:: right ::
+
+<v-drag pos="197,98,561,106">
+<div class="text-amber-400 text-3xl text-center">
+<a class="text-amber-400" href="https://thepythoncode.com/article/hide-secret-data-in-images-using-steganography-python">How to Hide Data in Images in Python</a>
+</div>
+<div class="text-gray-400 text-2xl mt-4 text-center">
+(The Python Code)
+</div>
+</v-drag>
+
+<v-drag pos="239,217,475,104">
+<div class="text-center text-gray-400 text-lg">
+The challenges come from my image steganography app, which started from this tutorial.
+</div>
+</v-drag>
+
+<v-drag pos="396,309,188,215">
+  <img src="/qr-tutorial.svg" class="w-40" />
+</v-drag>
