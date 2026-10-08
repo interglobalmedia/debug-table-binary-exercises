@@ -353,3 +353,33 @@ The challenges come from my image steganography app, which started from this tut
 <v-drag pos="396,309,188,215">
   <img src="/qr-tutorial.svg" class="w-40" />
 </v-drag>
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
+# Find me
+
+:: left ::
+
+<v-drag pos="110,155,360,40"> 
+<div class="text-amber-400 text-center mb-3">mariadcampbell.com</div>
+</v-drag>
+
+<v-drag pos="170,200,240,240">
+  <img src="/qr-mdc-site.svg" class="w-full" />
+</v-drag>
+
+:: right ::
+
+<v-drag pos="510,155,360,40">
+<div class="text-amber-400 text-center mb-3">linkedin.com/in/mariacampbell/</div>
+</v-drag>
+
+<v-drag pos="570,200,240,240">
+  <img src="/qr-linkedin.svg" class="w-full" />
+</v-drag>
