@@ -15,3 +15,5 @@ Claude_outputs
 output.txt
 
 answers/
+
+dist/
