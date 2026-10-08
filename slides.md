@@ -117,6 +117,39 @@ align: c-lm-lm
 
 :: title ::
 
+# Run Python on the slides
+
+:: left ::
+
+<v-drag pos="168,84,616,160">
+<div class="mt-12 ml-8 w-[36rem]">
+
+```python {monaco-run}
+print("Hello, Debug Table!")
+```
+
+</div>
+</v-drag>
+
+:: right ::
+
+<v-drag pos="294,309,389,61">
+<div class="text-amber-400 text-center">
+Try it:
+</div>
+Click into the code to change it, then press ▶.
+</v-drag>
+
+<!-- Run this during setup so Python loads before the challenges. Let attendees know that they shouldn't double-click on the code snippet. If they do, it will trigger v-drag. -->
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
 # Challenge 1: Counting in binary (Set 1)
 
 :: left ::
