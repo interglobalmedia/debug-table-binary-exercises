@@ -15,6 +15,7 @@ comark: true
 duration: 150min
 colorSchema: dark
 layout: intro
+monaco: true
 author: Maria D. Campbell
 ---
 
@@ -108,6 +109,39 @@ align: c-cm-cm
   <div class="text-3xl">CodeFile</div>
   <a class="text-amber-400" href="https://codefile.io">codefile.io</a>
 </div>
+
+---
+layout: top-title-two-cols
+columns: is-6-6
+align: c-lm-lm
+---
+
+:: title ::
+
+# Run Python on the slides
+
+:: left ::
+
+<v-drag pos="168,84,616,160">
+<div class="mt-12 ml-8 w-[36rem]">
+
+```python {monaco-run}
+print("Hello, Debug Table!")
+```
+
+</div>
+</v-drag>
+
+:: right ::
+
+<v-drag pos="294,309,389,61">
+<div class="text-amber-400 text-center">
+Try it:
+</div>
+Click into the code to change it, then press ▶.
+</v-drag>
+
+<!-- Run this during setup so Python loads before the challenges. Let attendees know that they shouldn't double-click on the code snippet. If they do, it will trigger v-drag. -->
 
 ---
 layout: top-title-two-cols
@@ -280,9 +314,9 @@ align: c-lm-lm
 
 :: left ::
 
-<v-drag pos="332,72,291,104">
+<v-drag pos="447,72,310,104">
 
-```python
+```python {monaco-run} {autorun:false}
 data = "é".encode()
 print(data)
 print("".join(chr(b) for b in data))
@@ -291,32 +325,32 @@ print(data.decode())
 
 </v-drag>
 
-<v-drag pos="60,102,188,188,-16">
+<v-drag pos="47,141,188,188,-16">
 <StickyNote color="amber-light" textAlign="left" width="180px" title="Bonus Challenge 1" customTitle="block text-base text-white" custom="mt-3">
 How many bytes does "é".encode() give you?
 </StickyNote>
 </v-drag>
 
-<v-drag pos="242,184,188,188,14">
+<v-drag pos="204,191,188,188,14">
 <StickyNote color="teal-light" textAlign="left" width="180px" title="Bonus Challenge 2" customTitle="block text-base text-white" custom="mt-3">
 Turning each byte into a character with chr() gives Ã©, not é. Why?
 </StickyNote>
 </v-drag>
 
-<v-drag pos="122,299,188,188">
+<v-drag pos="73,308,188,188">
 <StickyNote color="pink-light" textAlign="left" width="180px" title="Bonus Challenge 3" customTitle="block text-base text-white" custom="mt-3">
 What does .decode() do differently?
 </StickyNote>
 </v-drag>
 
-<v-drag pos="471,200,381,118">
+<v-drag pos="455,288,381,118">
 <div class="text-amber-400">
 How it works:
 </div>
 Computers store text as bytes. Plain English letters take 1 byte each, but a character like é takes more than one.
 </v-drag>
 
-<v-drag pos="431,367,381,88">
+<v-drag pos="295,409,381,88">
 <div class="text-amber-400">
 Hint line:
 </div>
