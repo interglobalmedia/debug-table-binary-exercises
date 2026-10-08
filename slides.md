@@ -15,6 +15,7 @@ comark: true
 duration: 150min
 colorSchema: dark
 layout: intro
+monaco: true
 author: Maria D. Campbell
 ---
 
