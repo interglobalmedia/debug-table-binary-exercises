@@ -14,7 +14,7 @@ comark: true
 # duration of the presentation
 duration: 150min
 colorSchema: dark
-layout: intro
+layout: cover
 monaco: true
 author: Maria D. Campbell
 ---
