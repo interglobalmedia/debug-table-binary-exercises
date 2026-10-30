@@ -23,6 +23,10 @@ author: Maria D. Campbell
 
 By Maria D. Campbell • mariadcampbell.com
 
+<!--
+This is the introductory slide for the Debug Table Binary Exercises slide deck, inspired by an application I am working on called Image Steganography.
+-->
+
 ---
 layout: top-title-two-cols
 columns: is-6-6
