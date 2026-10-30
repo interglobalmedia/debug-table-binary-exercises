@@ -23,6 +23,10 @@ author: Maria D. Campbell
 
 By Maria D. Campbell • mariadcampbell.com
 
+<!--
+This is the introductory slide for the Debug Table Binary Exercises slide deck, inspired by an application I am working on called Image Steganography.
+-->
+
 ---
 layout: top-title-two-cols
 columns: is-6-6
@@ -141,7 +145,40 @@ Try it:
 Click into the code to change it, then press ▶.
 </v-drag>
 
-<!-- Run this during setup so Python loads before the challenges. Let attendees know that they shouldn't double-click on the code snippet. If they do, it will trigger v-drag. -->
+<!--
+Run this during setup so Python loads before the challenges. Let attendees know that they shouldn't double-click on the code snippet. If they do, it will trigger v-drag.
+-->
+
+---
+align: c-lm-lm
+columns: is-6-6
+layout: top-title-two-cols
+---
+
+:: title ::
+
+# Warm-up: Try the code runner
+
+:: left ::
+
+<v-drag pos="168,84,616,160">
+<div class="mt-12 ml-8 w-[36rem]">
+
+```python {monaco-run} {autorun:false}
+# Write your code here, then press ▶
+```
+
+</div>
+</v-drag>
+
+:: right ::
+
+<v-drag pos="294,309,389,61">
+<div class="text-amber-400 text-center">
+Try it:
+</div>
+Write any Python you like, then press ▶. Nothing here counts toward the challenges.
+</v-drag>
 
 ---
 layout: top-title-two-cols
@@ -274,21 +311,31 @@ align: c-lm-lm
 
 :: left ::
 
-<v-drag pos="116,117,180,177,-20">
+<v-drag pos="96,97,180,177,-20">
 <StickyNote color="amber-light" textAlign="left" width="180px" title="Set 3 Challenge 1" customTitle="block text-base text-white" custom="mt-3">
 How many bits are in 4 bytes?
 </StickyNote>
 </v-drag>
 
-<v-drag pos="273,152,180,177,18">
+<v-drag pos="273,132,180,177,18">
 <StickyNote color="teal-light" textAlign="left" width="180px" title="Set 3 Challenge 2" customTitle="block text-base text-white" custom="mt-3">
 What's the largest length those bits can describe? A power of 2 is enough.
 </StickyNote>
 </v-drag>
 
+<v-drag pos="60,345,370,180">
+<div class="w-[23rem]">
+
+```python {monaco-run} {autorun:false}
+# Write your code here, then press ▶
+```
+
+</div>
+</v-drag>
+
 :: right ::
 
-<v-drag pos="505,120,381,117">
+<v-drag pos="505,100,381,117">
 <div class="text-amber-400">
 How it works:
 </div>
